@@ -19,4 +19,4 @@ A collection of 20 simulated Level 1 Help Desk tickets, each written the way a r
 
 ## Structure
 
-Each ticket lives in its own file under `/tickets`: user report → step-by-step diagnosis → solution applied. See the [full index and category legend in the Spanish README](./README.md#cómo-navegar-este-proyecto) — the ticket files themselves are language-neutral (technical steps and terms are the same either way).
+Each ticket lives in its own file under [`/tickets`](./tickets): user report → step-by-step diagnosis → solution applied. See the [full index and category legend in the Spanish README](./README.md#índice) — the ticket files themselves are language-neutral (technical steps and terms are the same either way).
