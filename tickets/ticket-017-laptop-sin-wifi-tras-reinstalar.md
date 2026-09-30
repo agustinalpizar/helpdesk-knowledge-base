@@ -10,14 +10,14 @@
 
 **Diagnóstico paso a paso:**
 1. Confirmar que efectivamente no aparece ninguna red (ni la propia ni las de vecinos) — descarta que sea un problema de configuración de una red específica y apunta a que el adaptador no está funcionando.
-2. Revisar en el Administrador de dispositivos si el adaptador de red inalámbrica aparece listado, y si tiene algún ícono de advertencia (signo de exclamación amarillo).
+2. Revisar si el sistema ve algún adaptador inalámbrico: `Get-NetAdapter` no lo listará si falta el driver. Complementar con `Get-PnpDevice -Status Error,Unknown` para ver los dispositivos sin controlador, o el Administrador de dispositivos (`devmgmt.msc`) buscando el signo de exclamación amarillo.
 3. Si no aparece o aparece como "Dispositivo desconocido", es señal de que falta el driver — muy común después de una reinstalación limpia de Windows, ya que Windows no siempre trae el driver específico del chip WiFi del fabricante.
-4. Confirmar la marca/modelo exacto del equipo para buscar el driver correcto del fabricante.
+4. Obtener el identificador del hardware para buscar el driver exacto: en el Administrador de dispositivos, Propiedades → Detalles → Id. de hardware (`PCI\VEN_xxxx&DEV_xxxx`). El modelo del equipo solo (`wmic csproduct get name`) no siempre basta, porque un mismo modelo puede traer distintos chips WiFi.
 5. Revisar si el modo avión está desactivado y si hay un interruptor físico o combinación de teclas para activar el WiFi en esa laptop en particular (algunos modelos lo desactivan por hardware).
 
 **Solución aplicada:**
-- En el Administrador de dispositivos, el adaptador de red inalámbrica aparecía como "Dispositivo desconocido" bajo Otros dispositivos, confirmando que faltaba el driver.
-- Se descargó el driver de red inalámbrica correcto desde el sitio del fabricante (usando el modelo exacto del equipo) usando otra computadora con Internet, y se transfirió por USB.
+- `Get-NetAdapter` no listó ningún adaptador inalámbrico, y el Administrador de dispositivos mostraba un "Dispositivo desconocido" bajo Otros dispositivos: faltaba el driver.
+- Se tomó el Id. de hardware del dispositivo para identificar el chip exacto, y con eso se descargó el driver correcto desde el sitio del fabricante usando otra computadora con Internet, transfiriéndolo por USB.
 - Se instaló el driver y el equipo detectó las redes disponibles de inmediato.
 - Se conectó a la red de la empresa y se confirmó acceso a Internet.
 
