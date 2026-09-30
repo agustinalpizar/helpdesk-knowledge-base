@@ -6,6 +6,8 @@
 
 **Categorías cubiertas:** Red, Impresoras, Cuentas/Accesos (Active Directory), Hardware, Software.
 
+> Todos los casos son simulados, escritos para portafolio. Los métodos y herramientas de diagnóstico referenciados (Active Directory, Administrador de dispositivos, Visor de eventos, `ping`/`ipconfig`, etc.) reflejan conocimiento real aplicado en laboratorios personales y en soporte técnico freelance — ver perfil más abajo.
+
 ## Sobre mí
 
 **Agustín Alpízar Hernández** — Técnico en Redes (Universidad Castro Carazo, completado), actualmente cursando la carrera de Técnico en Ciberseguridad en la misma institución.
