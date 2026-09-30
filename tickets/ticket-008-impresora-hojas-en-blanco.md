@@ -11,7 +11,7 @@
 **Diagnóstico paso a paso:**
 1. Confirmar si es láser o inyección de tinta (el diagnóstico cambia según el tipo de impresora).
 2. Preguntar si pasa con todos los documentos o solo con uno (aísla si es de la impresora o del archivo).
-3. Revisar niveles de tóner/tinta desde el panel de la impresora.
+3. Revisar niveles de tóner/tinta desde el panel de la impresora o desde su página web de administración (la mayoría de impresoras de red exponen el estado de consumibles en `http://<ip-impresora>`).
 4. Si es láser, revisar si el cartucho está bien colocado o si tiene el sello protector de fábrica sin retirar (muy común en cartuchos recién instalados).
 5. Imprimir una página de prueba directo desde el panel físico de la impresora — aísla si el problema es de la impresora o del driver/configuración en el equipo del usuario.
 6. Si la página de prueba también sale en blanco: problema de hardware (tóner, tambor, cabezal). Si sale bien: revisar el driver del usuario.
