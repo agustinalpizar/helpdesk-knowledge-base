@@ -13,12 +13,13 @@
 2. Verificar si hubo un cambio de contraseña reciente — causa más común: Outlook sigue usando una credencial vieja guardada en Windows.
 3. Revisar el estado de conexión en la barra inferior de Outlook (Desconectado, Intentando conectar, etc.).
 4. Confirmar conectividad a Internet del equipo.
-5. Revisar el Administrador de credenciales de Windows (Panel de Control → Cuentas de usuario) buscando una entrada guardada para Office/Outlook.
+5. Listar las credenciales guardadas con `cmdkey /list` y buscar entradas de Office/Outlook (`MicrosoftOffice16_Data:...`); también se ven desde el Administrador de credenciales (`control keymgr.dll`).
 6. Si nada de eso resuelve, considerar reparar o recrear el perfil de Outlook.
 
 **Solución aplicada:**
-- Se encontró una credencial vieja guardada en el Administrador de credenciales de Windows, anterior al cambio de contraseña de dominio.
-- Se eliminó esa entrada y se reinició Outlook, forzando el reingreso de la contraseña actual.
+- El acceso por Outlook Web funcionó con la contraseña actual, lo que confirmó que la cuenta estaba bien y el problema era del cliente de escritorio.
+- `cmdkey /list` mostró una credencial de Office guardada con fecha anterior al último cambio de contraseña de dominio.
+- Se eliminó esa entrada (`cmdkey /delete:<nombre>`) y se reinició Outlook, forzando el reingreso de la contraseña actual.
 - Se confirmó sincronización normal de correo entrante y saliente sin más solicitudes.
 
 ---
