@@ -43,3 +43,7 @@ Cada ticket vive en su propio archivo dentro de [`tickets/`](./tickets): reporte
 16. [TICKET-016 — No puede guardar archivos en la carpeta compartida — "no hay suficiente espacio"](tickets/ticket-016-carpeta-compartida-sin-espacio.md)
 17. [TICKET-017 — La laptop no detecta ninguna red WiFi después de reinstalar Windows](tickets/ticket-017-laptop-sin-wifi-tras-reinstalar.md)
 18. [TICKET-018 — Usuario olvidó su contraseña y no puede iniciar sesión (autoservicio)](tickets/ticket-018-reseteo-contrasena-autoservicio.md)
+
+## Licencia
+
+[MIT](LICENSE) © 2026 Agustín Alpízar Hernández.

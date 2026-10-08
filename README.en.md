@@ -45,3 +45,7 @@ The ticket files are written in Spanish, since that is the working language of t
 16. [TICKET-016 — Cannot save files to the shared folder — "not enough space"](tickets/ticket-016-carpeta-compartida-sin-espacio.md)
 17. [TICKET-017 — Laptop detects no Wi-Fi networks after reinstalling Windows](tickets/ticket-017-laptop-sin-wifi-tras-reinstalar.md)
 18. [TICKET-018 — User forgot their password and cannot log in (self-service)](tickets/ticket-018-reseteo-contrasena-autoservicio.md)
+
+## License
+
+[MIT](LICENSE) © 2026 Agustín Alpízar Hernández.
