@@ -1,6 +1,6 @@
 # Knowledge Base — IT Support Tickets (Help Desk L1)
 
-[🇪🇸 Versión en español](./README.md)
+[Versión en español](./README.md)
 
 18 simulated Level 1 Help Desk tickets, each written the way a real user would report an issue, followed by a step-by-step diagnostic process and the solution applied. The goal is to document the troubleshooting reasoning, not just the fix.
 
@@ -14,7 +14,7 @@
 
 - Completed IT Essentials, CCNA 1, CCNA 2, and CCNA 3 (Cisco Networking Academy).
 - Hands-on labs: Active Directory on Windows Server 2022 (users, groups, permissions, shared folders, DNS), a GLPI + MySQL help desk ticketing lab on Docker/WSL2, and an enterprise network simulation in Cisco Packet Tracer (VLANs, trunking, inter-VLAN routing, DHCP, basic OSPF).
-- Freelance technical support since 2023 for 10+ clients, including Microsoft 365 administration for a small business.
+- Independent technical support since January 2023, on-site and remote, for small businesses and individual clients, including Microsoft 365 administration for a small company.
 - Looking for my first formal role in Level 1 Help Desk / Service Desk / Junior IT Support in Costa Rica.
 
 [LinkedIn](https://www.linkedin.com/in/agustin-alpizar)

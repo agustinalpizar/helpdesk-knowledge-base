@@ -14,7 +14,7 @@
 
 - Completó IT Essentials, CCNA 1, CCNA 2 y CCNA 3 (Cisco Networking Academy).
 - Laboratorios prácticos: Active Directory sobre Windows Server 2022 (usuarios, grupos, permisos, carpetas compartidas, DNS), un laboratorio de mesa de ayuda con GLPI + MySQL sobre Docker/WSL2, y una simulación de red empresarial en Cisco Packet Tracer (VLANs, trunking, ruteo inter-VLAN, DHCP, OSPF básico).
-- Soporte técnico freelance desde 2023 para más de 10 clientes, incluyendo administración de Microsoft 365 para una pequeña empresa.
+- Soporte técnico independiente desde enero de 2023, presencial y remoto, para pymes y clientes particulares, incluida la administración de Microsoft 365 para una pequeña empresa.
 - Buscando su primer puesto formal en Help Desk / Service Desk / Soporte IT Junior en Costa Rica.
 
 [LinkedIn](https://www.linkedin.com/in/agustin-alpizar)
